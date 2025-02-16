@@ -66,8 +66,8 @@ const useGetWeatherData = (type, selectedLocation = null) => {
     const fetchData = async () => {
       const URL =
         type === "VilageFcst"
-          ? "http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst"
-          : "http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst";
+          ? "https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst"
+          : "https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst";
 
       try {
         const response = await axios.get(URL, {

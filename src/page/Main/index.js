@@ -221,6 +221,7 @@ const Main = () => {
           </>
         )}
       </div>
+      <footer>공공데이터 포털 기상청 api를 사용했습니다</footer>
     </main>
   );
 };
