@@ -56,6 +56,7 @@ const Main = () => {
     setSearchResults([]);
   };
 
+  //api로 받은 데이터를 기상청에서 준 pdf파일을 보고 필요에 맞게 가공했습니다.
   useEffect(() => {
     if (ncstData) {
       const tempData = ncstData.item.reduce((acc, item) => {

@@ -1,3 +1,5 @@
+//기상청 기준에 시간이 아닌경우 NO_DATA가 받아지기 때문에
+//기상청 api설명서를 기준으로 값을 바꾸는 과정입니다.
 const FcstBaseTime = (currentTime) => {
   const baseTimes = [
     "0200",

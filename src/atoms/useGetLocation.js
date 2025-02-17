@@ -1,3 +1,4 @@
+//geolocation를 사용해 현재 내 위치를 확인합니다.
 import { useEffect, useState } from "react";
 import { CoordToGrid } from "../Utils";
 
