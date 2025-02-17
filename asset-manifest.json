@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kowave/static/css/main.476f99ff.css",
+    "main.js": "/kowave/static/js/main.0a4f9886.js",
+    "static/js/453.1b8d7cc3.chunk.js": "/kowave/static/js/453.1b8d7cc3.chunk.js",
+    "index.html": "/kowave/index.html",
+    "main.476f99ff.css.map": "/kowave/static/css/main.476f99ff.css.map",
+    "main.0a4f9886.js.map": "/kowave/static/js/main.0a4f9886.js.map",
+    "453.1b8d7cc3.chunk.js.map": "/kowave/static/js/453.1b8d7cc3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.476f99ff.css",
+    "static/js/main.0a4f9886.js"
+  ]
+}
